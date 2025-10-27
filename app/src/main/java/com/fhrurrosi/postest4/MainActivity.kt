@@ -124,14 +124,12 @@ class MainActivity : AppCompatActivity() {
             isValid = false
         }
 
-        // Validasi RT
         if (binding.etRT.text.isNullOrBlank()) {
             binding.etRT.error = "RT tidak boleh kosong"
             Toast.makeText(this, "RT tidak boleh kosong", Toast.LENGTH_SHORT).show()
             isValid = false
         }
 
-        // Validasi RW
         if (binding.etRW.text.isNullOrBlank()) {
             binding.etRW.error = "RW tidak boleh kosong"
             Toast.makeText(this, "RW tidak boleh kosong", Toast.LENGTH_SHORT).show()
